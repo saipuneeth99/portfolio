@@ -2,5 +2,11 @@
   "buildCommand": "echo 'Build complete'",
   "outputDirectory": ".",
   "public": true,
-  "cleanUrls": true
+  "cleanUrls": false,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/portfolio.html"
+    }
+  ]
 }
